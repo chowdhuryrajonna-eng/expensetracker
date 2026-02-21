@@ -1,5 +1,9 @@
 import sqlite3
 from analytics import category_expense_graph, income_vs_expense_graph, expense_pie_chart
+from database import create_db
+
+# Create database and table automatically
+create_db()
 
 
 def add_transaction(t_type, category, amount, date):
