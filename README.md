@@ -1,6 +1,6 @@
 # Personal Expense Tracker
 
-Developed by Rajonna Chowdhury
+Developed by Rajayana Chowdhury
 
 ## Description
 A Python-based Expense and Income Tracker using SQLite and Matplotlib.
