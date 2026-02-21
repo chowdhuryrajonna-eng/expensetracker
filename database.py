@@ -1,4 +1,5 @@
 import sqlite3
+import sqlite3
 
 def create_db():
     conn = sqlite3.connect("expenses.db")
@@ -16,6 +17,3 @@ def create_db():
 
     conn.commit()
     conn.close()
-
-create_db()
-print("Database created successfully!")
